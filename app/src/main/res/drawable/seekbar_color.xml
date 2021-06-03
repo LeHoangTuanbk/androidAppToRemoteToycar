@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item>
+        <clip>
+            <shape>
+                <gradient android:startColor="#ff5e8ea3" android:endColor="#ff13729e" android:angle="270" android:centerY="0.1" android:centerColor="#ff32a0d2"/>
+            </shape>
+        </clip>
+    </item>
+    <item>
+        <clip>
+            <bitmap android:gravity="left" android:src="@drawable/stripes" android:antialias="true" android:filter="false" android:dither="false" android:tileMode="repeat"/>
+        </clip>
+    </item>
+</layer-list>
